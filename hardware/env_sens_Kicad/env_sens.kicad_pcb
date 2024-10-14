@@ -201,6 +201,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -213,6 +214,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -225,6 +227,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -411,6 +414,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -423,6 +427,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -435,6 +440,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -755,7 +761,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "f7f3e71f-0308-476c-b291-acf99b43f6fd")
 			(effects
@@ -766,7 +772,7 @@
 			)
 		)
 		(property "Value" "5.11k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "ad01aa9a-64b6-411b-b19a-56d32a6c0ca5")
 			(effects
@@ -785,6 +791,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -797,6 +804,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -809,6 +817,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -918,7 +927,7 @@
 			(uuid "766a3c80-1560-4595-a7e9-dcea3a2f2341")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c9d4d46a-66ce-4c31-81d0-17a3f6ba8a41")
 			(effects
@@ -965,7 +974,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 0 -1.68 270)
+			(at 0 -1.68 -90)
 			(layer "F.SilkS")
 			(uuid "94b4b0fb-0ac6-48c7-9a2d-8211275a0f23")
 			(effects
@@ -976,7 +985,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 270)
+			(at 0 1.68 -90)
 			(layer "F.Fab")
 			(uuid "5d492fe5-a020-4e1e-ade4-8e06e84b2f55")
 			(effects
@@ -995,6 +1004,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1007,6 +1017,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1019,6 +1030,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1128,7 +1140,7 @@
 			(uuid "166ab154-42ba-44f3-8e9f-98e5f5cd0f3a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a8f90529-e29c-4bb4-acf8-a66de2071ce0")
 			(effects
@@ -1206,6 +1218,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1218,6 +1231,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1230,6 +1244,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1338,6 +1353,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1350,6 +1366,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1362,6 +1379,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1625,7 +1643,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 2.9 0 270)
+			(at 2.9 0 -90)
 			(layer "F.SilkS")
 			(uuid "21503de2-5d35-4616-ac2e-a33e5ba9c82f")
 			(effects
@@ -1636,7 +1654,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "e0b89972-b2d8-436c-8fd7-b092d8f76307")
 			(effects
@@ -1655,6 +1673,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1667,6 +1686,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1679,6 +1699,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1788,7 +1809,7 @@
 			(uuid "cd1db7ba-639a-4699-b386-fd27d1ce96d3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "4b1bd59a-c32d-4376-8718-2124179de99d")
 			(effects
@@ -1865,6 +1886,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1877,6 +1899,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1889,6 +1912,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2231,6 +2255,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2243,6 +2268,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2255,6 +2281,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2767,6 +2794,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2779,6 +2807,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2791,6 +2820,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2977,6 +3007,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2989,6 +3020,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3001,6 +3033,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3187,6 +3220,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3199,6 +3233,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3211,6 +3246,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3397,6 +3433,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3409,6 +3446,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3421,6 +3459,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3607,6 +3646,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3619,6 +3659,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3631,6 +3672,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3839,6 +3881,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3851,6 +3894,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3863,6 +3907,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4030,7 +4075,7 @@
 			)
 		)
 		(property "Value" "HDC1080"
-			(at 0 2.725 360)
+			(at 0 2.725 0)
 			(layer "F.Fab")
 			(uuid "7e9fef7e-6c1b-4e67-9160-9848a0ce26ba")
 			(effects
@@ -4049,6 +4094,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4061,6 +4107,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4073,6 +4120,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4204,7 +4252,7 @@
 			(uuid "4f811a15-670a-46ee-9c37-86ae3e3c1cb4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5d248f3e-515b-499c-badf-9166e1a1f809")
 			(effects
@@ -4364,6 +4412,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4376,6 +4425,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4388,6 +4438,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4574,6 +4625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4586,6 +4638,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4598,6 +4651,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5030,6 +5084,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5042,6 +5097,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5054,6 +5110,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5240,6 +5297,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5252,6 +5310,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5264,6 +5323,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5597,6 +5657,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5609,6 +5670,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5621,6 +5683,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5729,6 +5792,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5741,6 +5805,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5753,6 +5818,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5940,6 +6006,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5952,6 +6019,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5964,6 +6032,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6204,6 +6273,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6216,6 +6286,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6228,6 +6299,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6384,7 +6456,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at -0.05 -3.15 270)
+			(at -0.05 -3.15 -90)
 			(layer "F.SilkS")
 			(uuid "c6437d5b-bc27-4978-a928-4bd453c289a2")
 			(effects
@@ -6395,7 +6467,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "da089f4b-bc00-4f6e-b96f-bf25fb58fbc0")
 			(effects
@@ -6414,6 +6486,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6426,6 +6499,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6438,6 +6512,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6547,7 +6622,7 @@
 			(uuid "d5403e6d-1ee3-4aee-b5d2-f8d6722019b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "fb3fa715-7c2d-4725-987e-517ef0567a39")
 			(effects
@@ -6594,7 +6669,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.68 360)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "8eb9e149-ad7e-472d-800a-1522081b7b87")
 			(effects
@@ -6605,7 +6680,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.68 360)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "bc22e602-87e4-42b0-a24f-50575ba8e265")
 			(effects
@@ -6624,6 +6699,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6636,6 +6712,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6648,6 +6725,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6757,7 +6835,7 @@
 			(uuid "c8122717-c014-4693-8dc9-f7b35b17b596")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c0c6f327-a65d-4d97-b335-e7ef1223ddd2")
 			(effects
@@ -6804,7 +6882,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 2.9 0 270)
+			(at 2.9 0 -90)
 			(layer "F.SilkS")
 			(uuid "9e3515af-e905-418e-b7bb-5abddaaaffa5")
 			(effects
@@ -6815,7 +6893,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "94fae57e-8bd9-4d62-823f-388d0ec096fa")
 			(effects
@@ -6834,6 +6912,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6846,6 +6925,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6858,6 +6938,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6967,7 +7048,7 @@
 			(uuid "c61d0d5b-1133-4bb1-9825-1b048099e751")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "54c815bb-2f2a-4b6c-94a8-fae9869798a3")
 			(effects
@@ -7045,6 +7126,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7057,6 +7139,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7069,6 +7152,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7177,6 +7261,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7189,6 +7274,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7201,6 +7287,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7387,6 +7474,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7399,6 +7487,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7411,6 +7500,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7661,6 +7751,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7673,6 +7764,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7685,6 +7777,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8017,6 +8110,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8029,6 +8123,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8041,6 +8136,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8292,6 +8388,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8304,6 +8401,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8316,6 +8414,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8405,7 +8504,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 0 1.65 270)
+			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "8b3d7797-adc1-4c19-b432-3df26c8e9566")
 			(effects
@@ -8424,6 +8523,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8436,6 +8536,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8448,6 +8549,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8557,7 +8659,7 @@
 			(uuid "147c9a44-6832-428e-95fd-3da02bd60a29")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1e8a3fc6-7e9e-4797-9197-60e6b0bcf16e")
 			(effects
@@ -8634,6 +8736,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8646,6 +8749,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8658,6 +8762,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8916,6 +9021,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8928,6 +9034,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8940,6 +9047,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9126,6 +9234,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9138,6 +9247,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9150,6 +9260,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9336,6 +9447,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9348,6 +9460,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9360,6 +9473,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9600,6 +9714,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9612,6 +9727,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9624,6 +9740,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9812,6 +9929,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9824,6 +9942,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9836,6 +9955,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13838,28 +13958,29 @@
 				(xy 66.139403 38.550003) (xy 66.159724 38.730369) (xy 66.159725 38.730374) (xy 66.219677 38.901706)
 				(xy 66.316249 39.055398) (xy 66.444601 39.18375) (xy 66.598294 39.280323) (xy 66.661089 39.302295)
 				(xy 66.689025 39.316233) (xy 66.69261 39.318629) (xy 66.82992 39.375505) (xy 66.975683 39.404499)
-				(xy 66.975687 39.4045) (xy 66.975688 39.4045) (xy 72.546319 39.4045) (xy 72.587273 39.411458) (xy 72.61036 39.419536)
-				(xy 72.669625 39.440274) (xy 72.669631 39.440274) (xy 72.669633 39.440275) (xy 72.849996 39.460597)
-				(xy 72.85 39.460597) (xy 72.850004 39.460597) (xy 73.030369 39.440275) (xy 73.030372 39.440274)
-				(xy 73.030375 39.440274) (xy 73.201705 39.380323) (xy 73.355399 39.28375) (xy 73.48375 39.155399)
-				(xy 73.580323 39.001705) (xy 73.640274 38.830375) (xy 73.640275 38.830369) (xy 73.660597 38.650003)
-				(xy 73.660597 38.649996) (xy 73.640275 38.46963) (xy 73.640274 38.469625) (xy 73.580322 38.298293)
-				(xy 73.48375 38.144601) (xy 73.355398 38.016249) (xy 73.201706 37.919677) (xy 73.030374 37.859725)
-				(xy 73.030369 37.859724) (xy 72.850004 37.839403) (xy 72.849996 37.839403) (xy 72.669633 37.859724)
-				(xy 72.669627 37.859725) (xy 72.587273 37.888542) (xy 72.546319 37.8955) (xy 67.4581 37.8955) (xy 67.392127 37.876493)
-				(xy 67.301707 37.819677) (xy 67.130374 37.759725) (xy 67.130369 37.759724) (xy 66.950004 37.739403)
-				(xy 66.949996 37.739403) (xy 66.76963 37.759724) (xy 66.769625 37.759725) (xy 66.598293 37.819677)
-				(xy 66.444601 37.916249) (xy 66.316249 38.044601) (xy 66.219677 38.198293) (xy 66.159725 38.369625)
-				(xy 66.159724 38.36963) (xy 66.139403 38.549996) (xy 55.3775 38.549996) (xy 55.3775 34.438195) (xy 55.369563 34.398297)
-				(xy 55.369563 34.398295) (xy 55.353386 34.316966) (xy 55.321619 34.240274) (xy 55.306083 34.202767)
-				(xy 55.306082 34.202766) (xy 55.306079 34.20276) (xy 55.237412 34.099993) (xy 55.211061 34.073642)
-				(xy 55.150008 34.012589) (xy 54.587872 33.450453) (xy 54.554387 33.38913) (xy 54.552333 33.376654)
-				(xy 54.540275 33.26963) (xy 54.540274 33.269625) (xy 54.480323 33.098295) (xy 54.38375 32.944601)
-				(xy 54.255399 32.81625) (xy 54.255398 32.816249) (xy 54.101706 32.719677) (xy 53.930374 32.659725)
-				(xy 53.930369 32.659724) (xy 53.750004 32.639403) (xy 53.749996 32.639403) (xy 53.56963 32.659724)
-				(xy 53.569625 32.659725) (xy 53.398293 32.719677) (xy 53.244601 32.816249) (xy 53.116249 32.944601)
-				(xy 53.019677 33.098293) (xy 52.959725 33.269625) (xy 52.959724 33.26963) (xy 52.939403 33.449996)
-				(xy 48.6315 33.449996) (xy 48.6315 28.15666) (xy 58.536892 28.15666) (xy 58.536892 28.156661) (xy 58.550692 28.165333)
+				(xy 66.975687 39.4045) (xy 66.975688 39.4045) (xy 67.124312 39.4045) (xy 72.546319 39.4045) (xy 72.587273 39.411458)
+				(xy 72.61036 39.419536) (xy 72.669625 39.440274) (xy 72.669631 39.440274) (xy 72.669633 39.440275)
+				(xy 72.849996 39.460597) (xy 72.85 39.460597) (xy 72.850004 39.460597) (xy 73.030369 39.440275)
+				(xy 73.030372 39.440274) (xy 73.030375 39.440274) (xy 73.201705 39.380323) (xy 73.355399 39.28375)
+				(xy 73.48375 39.155399) (xy 73.580323 39.001705) (xy 73.640274 38.830375) (xy 73.640275 38.830369)
+				(xy 73.660597 38.650003) (xy 73.660597 38.649996) (xy 73.640275 38.46963) (xy 73.640274 38.469625)
+				(xy 73.580322 38.298293) (xy 73.48375 38.144601) (xy 73.355398 38.016249) (xy 73.201706 37.919677)
+				(xy 73.030374 37.859725) (xy 73.030369 37.859724) (xy 72.850004 37.839403) (xy 72.849996 37.839403)
+				(xy 72.669633 37.859724) (xy 72.669627 37.859725) (xy 72.587273 37.888542) (xy 72.546319 37.8955)
+				(xy 67.4581 37.8955) (xy 67.392127 37.876493) (xy 67.301707 37.819677) (xy 67.130374 37.759725)
+				(xy 67.130369 37.759724) (xy 66.950004 37.739403) (xy 66.949996 37.739403) (xy 66.76963 37.759724)
+				(xy 66.769625 37.759725) (xy 66.598293 37.819677) (xy 66.444601 37.916249) (xy 66.316249 38.044601)
+				(xy 66.219677 38.198293) (xy 66.159725 38.369625) (xy 66.159724 38.36963) (xy 66.139403 38.549996)
+				(xy 55.3775 38.549996) (xy 55.3775 34.438195) (xy 55.369563 34.398297) (xy 55.369563 34.398295)
+				(xy 55.353386 34.316966) (xy 55.321619 34.240274) (xy 55.306083 34.202767) (xy 55.306082 34.202766)
+				(xy 55.306079 34.20276) (xy 55.237412 34.099993) (xy 55.211061 34.073642) (xy 55.150008 34.012589)
+				(xy 54.587872 33.450453) (xy 54.554387 33.38913) (xy 54.552333 33.376654) (xy 54.540275 33.26963)
+				(xy 54.540274 33.269625) (xy 54.480323 33.098295) (xy 54.38375 32.944601) (xy 54.255399 32.81625)
+				(xy 54.255398 32.816249) (xy 54.101706 32.719677) (xy 53.930374 32.659725) (xy 53.930369 32.659724)
+				(xy 53.750004 32.639403) (xy 53.749996 32.639403) (xy 53.56963 32.659724) (xy 53.569625 32.659725)
+				(xy 53.398293 32.719677) (xy 53.244601 32.816249) (xy 53.116249 32.944601) (xy 53.019677 33.098293)
+				(xy 52.959725 33.269625) (xy 52.959724 33.26963) (xy 52.939403 33.449996) (xy 48.6315 33.449996)
+				(xy 48.6315 28.15666) (xy 58.536892 28.15666) (xy 58.536892 28.156661) (xy 58.550692 28.165333)
 				(xy 58.550691 28.165333) (xy 58.720861 28.224878) (xy 58.899997 28.245062) (xy 58.900003 28.245062)
 				(xy 59.079138 28.224878) (xy 59.079141 28.224877) (xy 59.249305 28.165334) (xy 59.249306 28.165334)
 				(xy 59.263106 28.156661) (xy 59.263106 28.15666) (xy 59.936892 28.15666) (xy 59.936892 28.156661)
