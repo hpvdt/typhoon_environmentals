@@ -1299,7 +1299,7 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1314,7 +1314,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "D_Schottky"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1340,7 +1340,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1349,25 +1349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1385,19 +1367,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
 						(xy 1.27 0) (xy -1.27 0)
@@ -1422,8 +1392,20 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_Schottky_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -5689,7 +5671,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 163.83) (xy 152.4 163.83)
+			(xy 151.13 163.83) (xy 154.94 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6885,18 +6867,6 @@
 		)
 		(uuid "e2797639-da6d-4825-a685-44cdfd0a35a6")
 	)
-	(text "CHANGE TRANSCEIVER FROM 5V TO 3.3V\nSOME EXAMPLES I FOUND WITH CHATGPT:\n\nMCP2562FD\nSN65HVD230\nTJA1051T/3"
-		(exclude_from_sim no)
-		(at 250.952 110.998 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f1a09f69-bbec-4a2b-9465-e95005b3e45d")
-	)
 	(text "Central Power Source Configuration\nSafety Regulation\n"
 		(exclude_from_sim no)
 		(at 122.428 177.546 0)
@@ -7873,94 +7843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 140.97 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30924244-dc61-4856-9651-1681e92f7e77")
-		(property "Reference" "D5"
-			(at 143.51 158.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 143.51 161.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 140.97 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6d73b754-bad5-4f21-84b2-5d66e730f044")
-		)
-		(pin "1"
-			(uuid "696b4ad1-e794-46ad-bdc5-b94ba60d9bb8")
-		)
-		(instances
-			(project "env_sens"
-				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 40.64 0)
 		(unit 1)
@@ -8221,92 +8103,6 @@
 			(project "env_sens"
 				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 147.32 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b64b4f2-ce8c-4636-aebe-0d245e6136c5")
-		(property "Reference" "D4"
-			(at 147.32 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 147.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 147.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 147.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 147.32 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "85882a70-0421-456b-aede-639446514676")
-		)
-		(pin "1"
-			(uuid "5ce77d98-5834-4222-aad5-b5e7f595bab9")
-		)
-		(instances
-			(project "env_sens"
-				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9297,6 +9093,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 134.62 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66c8f6e1-caa6-4cc4-888c-2e357e53ab70")
+		(property "Reference" "D5"
+			(at 132.08 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 132.08 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 134.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b16394a-304b-423a-807e-d6ba7e1922a8")
+		)
+		(pin "1"
+			(uuid "617e6b43-20fd-4105-a2bc-00a7958f33b3")
+		)
+		(instances
+			(project "env_sens"
+				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 93.98 104.14 0)
 		(unit 1)
@@ -9979,7 +9842,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 152.4 163.83 0)
+		(at 154.94 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9988,7 +9851,7 @@
 		(dnp no)
 		(uuid "83e1d56c-e9a8-4ae3-8598-264e088baeab")
 		(property "Reference" "#PWR035"
-			(at 152.4 167.64 0)
+			(at 154.94 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +9860,7 @@
 			)
 		)
 		(property "Value" "+5V_mb"
-			(at 152.4 158.75 0)
+			(at 154.94 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +9868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 163.83 0)
+			(at 154.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,7 +9877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 163.83 0)
+			(at 154.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,7 +9886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 152.4 163.83 0)
+			(at 154.94 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,6 +10225,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 140.97 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92b47a7d-686c-4c86-9431-4cc468e5eff3")
+		(property "Reference" "D3"
+			(at 132.842 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 129.54 156.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 140.97 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e8db13-e8e8-43e2-9043-27218f4daf1b")
+		)
+		(pin "2"
+			(uuid "62fc56b6-6866-4d2a-b1b0-b1f75e52d8ff")
+		)
+		(instances
+			(project ""
+				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 157.48 36.83 0)
 		(unit 1)
@@ -10426,6 +10358,73 @@
 			(project "env_sens"
 				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 147.32 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b26ed9-70d8-447a-8822-c751c05268bf")
+		(property "Reference" "D4"
+			(at 153.924 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 153.924 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 147.32 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1bd55fb1-06a7-4d5c-bad5-43d5d4a6030a")
+		)
+		(pin "1"
+			(uuid "46bf5f75-e3e4-46e8-b500-e52e56fe79f6")
+		)
+		(instances
+			(project ""
+				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10836,92 +10835,6 @@
 			(project "env_sens"
 				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 134.62 163.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa23ac49-6ffb-4db8-a308-d4f6e5051adb")
-		(property "Reference" "D3"
-			(at 134.62 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 134.62 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c93f00ef-17fd-4109-bf3e-9b6c0ba52f23")
-		)
-		(pin "1"
-			(uuid "67b0d52c-594d-4d05-b23b-89804566e0c6")
-		)
-		(instances
-			(project "env_sens"
-				(path "/0e8b45f3-b4ab-4b21-9725-e0ca4dd3f953"
-					(reference "D3")
 					(unit 1)
 				)
 			)
